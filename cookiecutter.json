@@ -1,0 +1,19 @@
+{
+  "app_name": "classifier",
+  "create_vs_project": "y",
+  "_visual_studio" : {
+    "app_name": {
+      "value_source": "ProjectName",
+      "visible": false
+    },
+    "create_vs_project": {
+      "value_source": "IsNewProject",
+      "visible": false
+    }
+  },
+  "_visual_studio_post_cmds": [
+    {
+      "name": "File.OpenProject",
+      "args": "{{cookiecutter._output_folder_path}}\\{{cookiecutter.app_name}}.pyproj"
+    }
+]}
