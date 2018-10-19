@@ -1,0 +1,6 @@
+name: scikit-env
+dependencies:
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
