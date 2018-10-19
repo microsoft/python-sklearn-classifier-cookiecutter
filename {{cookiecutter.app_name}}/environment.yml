@@ -1,5 +1,6 @@
 name: scikit-env
 dependencies:
+  - python=3.6
   - pandas
   - numpy
   - matplotlib
